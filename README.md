@@ -1,6 +1,8 @@
 # 🏢 Sistema Reto Selection
 
-**Sistema completo de gestión de personas y profesiones** desarrol## 📚 API Endpoints Disponibles
+**Sistema completo de gestión de personas y profesiones**
+
+## 📚 API Endpoints Disponibles
 
 ### 👥 Gestión de Personas
 | Método | Endpoint | Descripción | Parámetros |
@@ -158,7 +160,7 @@ Los scripts de configuración (`setup_env.py` y `setup_env.js`) crean automátic
 
 Una vez iniciado el sistema:
 
-- **Frontend:** [http://localhost:3000](http://localhost:3000)
+- **Frontend:** [http://localhost:4173](http://localhost:4173)
 - **Backend API:** [http://localhost:8000](http://localhost:8000)
 - **Documentación API:** [http://localhost:8000/docs](http://localhost:8000/docs)
 

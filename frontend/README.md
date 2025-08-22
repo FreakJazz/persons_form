@@ -1,46 +1,55 @@
+
 # Person Registration Frontend
 
-Frontend desarrollado con React y TypeScript siguiendo arquitectura limpia para el sistema de registro de personas.
+Frontend desarrollado con React, TypeScript y Vite, siguiendo principios de arquitectura limpia y buenas prácticas de desarrollo.
 
 ## Instalación y Uso
 
-In the project directory, you can run:
+En el directorio del proyecto, ejecuta:
 
-### `npm start`
+### `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Instala las dependencias del proyecto.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `npm run dev`
 
-### `npm test`
+Inicia la aplicación en modo desarrollo.\
+Abre [http://localhost:5173](http://localhost:5173) para verla en el navegador.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La página se recargará automáticamente si realizas cambios en el código.\
+Verás los errores de lint en la consola si existen.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Genera la versión optimizada para producción en la carpeta `dist`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run preview`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sirve localmente la build de producción para pruebas finales.
 
-### `npm run eject`
+### `npm run lint`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Ejecuta el linter para asegurar el cumplimiento de las buenas prácticas y estilos de código.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Estructura del Proyecto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+El proyecto sigue una arquitectura limpia, separando claramente las capas de dominio, infraestructura y presentación:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `src/domain`: Entidades, repositorios y casos de uso del dominio.
+- `src/infrastructure`: Implementaciones de servicios, API y hooks.
+- `src/presentation`: Componentes, páginas y lógica de UI.
+- `src/shared`: Utilidades, tipos y constantes compartidas.
 
-## Learn More
+## Buenas Prácticas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Uso de TypeScript para tipado estático.
+- Separación de responsabilidades por capas.
+- Componentes reutilizables y desacoplados.
+- Hooks personalizados para lógica de negocio y datos.
+- Linting y formateo automático.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Más Información
+
+- [Documentación de Vite](https://vitejs.dev/)
+- [Documentación de React](https://react.dev/)
+
