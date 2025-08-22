@@ -1,0 +1,23 @@
+.chart-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.chart-container canvas {
+  max-height: 400px !important;
+}
+
+/* Responsive chart adjustments */
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .chart-container canvas {
+    max-height: 300px !important;
+  }
+}

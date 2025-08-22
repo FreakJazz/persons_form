@@ -1,0 +1,57 @@
+/* ProfessionsPage.css */
+.professions-page {
+  padding: 0;
+  min-height: 100vh;
+}
+
+.professions-page .MuiPaper-root {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.professions-page .MuiPaper-root:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.professions-page .MuiTableHead-root {
+  background: linear-gradient(135deg, #f5f5f5 0%, #eeeeee 100%);
+}
+
+.professions-page .MuiTableRow-root:hover {
+  background-color: rgba(25, 118, 210, 0.04);
+}
+
+.professions-page .MuiIconButton-root {
+  transition: all 0.3s ease;
+}
+
+.professions-page .MuiIconButton-root:hover {
+  transform: scale(1.1);
+}
+
+.professions-page .MuiButton-contained {
+  box-shadow: 0 4px 15px rgba(25, 118, 210, 0.3);
+  transition: all 0.3s ease;
+}
+
+.professions-page .MuiButton-contained:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(25, 118, 210, 0.4);
+}
+
+.professions-page .MuiChip-root {
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.professions-page .MuiChip-root:hover {
+  transform: scale(1.05);
+}
+
+.professions-page .MuiTextField-root {
+  transition: all 0.3s ease;
+}
+
+.professions-page .MuiTextField-root:hover {
+  transform: translateY(-1px);
+}
